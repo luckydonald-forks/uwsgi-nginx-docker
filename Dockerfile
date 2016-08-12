@@ -1,6 +1,7 @@
-FROM python:2.7
+FROM python:3.5
 
-MAINTAINER Sebastian Ramirez <tiangolo@gmail.com>
+# MAINTAINER Sebastian Ramirez <tiangolo@gmail.com>
+
 # Install uWSGI
 RUN pip install uwsgi
 
